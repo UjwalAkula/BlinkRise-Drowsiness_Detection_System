@@ -23,7 +23,7 @@ This repository contains the full-stack implementation of **BlinkRise**, an inte
 ### Backend (Python FastAPI)
 
 * **Python 3.8+**
-* **FastAPI:** Web framework for API endpoints and serving video stream.
+* **FastAPI:** Asynchronous web framework for high-performance API endpoints and serving video stream.
 * **OpenCV (`opencv-python`):** For camera interaction and image processing.
 * **MediaPipe:** For robust facial landmark detection.
 * **Scikit-learn:** For the Support Vector Machine (SVM) model.
