@@ -117,8 +117,5 @@ Click the **"Turn On Video"** button to begin the drowsiness detection.
 Drowsy driving causes thousands of preventable accidents every year. BlinkRise was born from the idea that combining machine learning, computer vision, and web technologies can create accessible safety solutions.
 
 ---
----
 
 **Stay Alert, Stay Safe! 🚗💤**
-
-```
