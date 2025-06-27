@@ -52,9 +52,9 @@ Follow these instructions to set up and run BlinkRise locally on your machine.
 ### Installation
 
 1.  **Clone the Repository:**
-
+  
     ```bash
-    git clone [https://github.com/UjwalAkula/BlinkRise-Drowsiness_Detection_System])
+    git clone [https://github.com/UjwalAkula/BlinkRise-Drowsiness_Detection_System.git](https://github.com/UjwalAkula/BlinkRise-Drowsiness_Detection_System.git)
     cd BlinkRise-Drowsiness_Detection_System
     ```
 
@@ -86,7 +86,7 @@ Follow these instructions to set up and run BlinkRise locally on your machine.
         npm install
         ```
     * Ensure the alarm sound file `frontend/public/alarm.mp3` is present.
-    * **Adjust `App.jsx` API URL:** Open `frontend/src/App.jsx` and ensure `API_BASE_URL` is set to `http://localhost:5000` for local development.
+    * **Adjust `App.jsx` API URL:** Open `frontend/src/App.jsx` and ensure `API_BASE_URL` is set to `http://localhost:8000` for local development.
 
 ### Usage
 
