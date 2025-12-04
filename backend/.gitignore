@@ -20,7 +20,7 @@ venv/
 Thumbs.db
 .vscode/
 
-# === FastAPI or ML-specific artifacts ===
+# === ML-specific artifacts ===
 *.h5
 *.pt
 *.onnx
@@ -28,7 +28,7 @@ Thumbs.db
 *.npy
 *.npz
 
-# === Ignore build/cache folders ===
+# === Cache folders ===
 .mypy_cache/
 .pytest_cache/
 __pydantic__/
