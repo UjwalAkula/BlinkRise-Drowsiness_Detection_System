@@ -16,9 +16,10 @@ const App = () => {
     const [streamKey, setStreamKey] = useState(0);
     const wsRef = useRef(null);
 
-    const API_BASE_URL = 'http://127.0.0.1:8000';
+    // const API_BASE_URL = 'http://127.0.0.1:8000';
+    const API_BASE_URL = 'https://blinkrise-drowsinessdetectionsystem-production.up.railway.app';
     const cameraControlUrl = `${API_BASE_URL}/camera_control`;
-    const drowsinessWsUrl = `ws://127.0.0.1:8000/ws/drowsiness`;
+    const drowsinessWsUrl = `wss://blinkrise-drowsinessdetectionsystem-production.up.railway.app/ws/drowsiness`;
 
     const sendCameraControl = useCallback(async (action) => {
         try {
